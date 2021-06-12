@@ -17,7 +17,7 @@ body {
 .sidebar2 {
   z-index: -3;
   width: 75%;
-  box-shadow: 200px 0px 188px -39px rgba(0, 0, 0, 0.4);
+  box-shadow: 250px 0px 46px 200px rgba(0, 0, 0, 0.75);
   opacity: 1;
 }
 .animationFadeIn {
@@ -205,6 +205,7 @@ body {
   background-color: rgb(72, 75, 74);
   z-index: 5;
   display: none;
+  box-shadow: 0px 0px 51px 500px rgba(0, 0, 0, 0.685);
 }
 .myIframe2 {
   display: none !important;
