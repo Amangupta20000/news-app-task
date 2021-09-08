@@ -17,7 +17,8 @@ function App() {
         <Sidebar/>
         
            <Switch>
-           <Route exact path='/' component={Page1}/>
+           <Route exact path='/news-app-task/' component={Page1}/>
+           <Route path='/' exact  ><Redirect to='/news-app-task'/> </Route>
            <Route exact path='/page2' component={Page2}/>
            <Route exact path='/page3' component={Page3}/>
            </Switch> 
