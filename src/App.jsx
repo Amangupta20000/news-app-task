@@ -8,6 +8,7 @@ import Page1 from './Page1'
 import Page2 from './Page2'
 import Page3 from './Page3'
 import Sidebar2 from './Sidebar2'
+import { Redirect } from 'react-router-dom';
 
 
 function App() {
@@ -15,7 +16,6 @@ function App() {
         <div>
         <Sidebar2/>
         <Sidebar/>
-        
            <Switch>
            <Route exact path='/news-app-task/' component={Page1}/>
            <Route path='/' exact  ><Redirect to='/news-app-task'/> </Route>
